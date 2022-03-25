@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "animated-code-editor": {
+      "projectType": "library",
+      "root": "projects/animated-code-editor",
+      "sourceRoot": "projects/animated-code-editor/src",
+      "prefix": "oth",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/animated-code-editor/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/animated-code-editor/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/animated-code-editor/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/animated-code-editor/src/test.ts",
+            "tsConfig": "projects/animated-code-editor/tsconfig.spec.json",
+            "karmaConfig": "projects/animated-code-editor/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "animated-code-editor"
+}
