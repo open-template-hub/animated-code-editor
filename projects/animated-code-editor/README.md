@@ -13,6 +13,16 @@ Open Template Hub - Animated Code Editor UI Component v1
 
 This library contains animated-code-editor ui component for UI Templates on [Open Template Hub](https://github.com/open-template-hub)
 
+<h3 align="center">
+  For demo click the image below ⬇️
+</h3>
+
+<a href="https://opentemplatehub.com/en-US/product/generator/server-generator">
+
+![Demo](https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/demo/library/videos/animated-code-editor-video-1.mov)
+
+</a>
+
 ## About the NPM Package
 
 ### Package Installation
