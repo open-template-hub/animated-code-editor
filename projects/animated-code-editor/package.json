@@ -1,7 +1,7 @@
 {
   "name": "@open-template-hub/animated-code-editor",
   "description": "This library contains animated code editor ui component for UI Templates on Open Template Hub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
