@@ -15,21 +15,9 @@ Following packages are not updated in the develop branch yet. So, if you want to
 
 | Package | Current | Wanted | Latest | Location |
 | --- | --- | --- | --- | --- |
-| @angular-devkit/build-angular | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/animations | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/cli | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/common | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/compiler | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/compiler-cli | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/core | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/forms | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/platform-browser | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/platform-browser-dynamic | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @angular/router | 13.3.0 | 13.3.1 | 13.3.1 | animated-code-editor |
-| @types/jasmine | 3.10.4 | 3.10.5 | 4.0.2 | animated-code-editor |
+| @types/jasmine | 3.10.5 | 3.10.5 | 4.0.2 | animated-code-editor |
 | @types/node | 12.20.47 | 12.20.47 | 17.0.23 | animated-code-editor |
 | karma-coverage | 2.1.1 | 2.1.1 | 2.2.0 | animated-code-editor |
-| karma-jasmine | 4.0.1 | 4.0.2 | 4.0.2 | animated-code-editor |
 
 <table align="right"><tr><td><a href="https://opentemplatehub.com"><img src="https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/logo/brand-logo.png" width="50px" alt="oth"/></a></td><td><b>Open Template Hub © 2021</b></td></tr></table>
 
