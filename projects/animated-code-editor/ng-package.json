@@ -3,5 +3,10 @@
   "dest": "../../dist/animated-code-editor",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "styles/util/util.scss",
+    "styles/animated-code-editor/animated-code-editor.scss",
+    "styles/command-line/command-line.scss"
+  ]
 }
