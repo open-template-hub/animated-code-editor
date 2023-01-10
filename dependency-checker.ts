@@ -5,6 +5,8 @@ const lines = outdatedCmd.stdout.toString().split( '\n' );
 
 const columnIndexes = [ 0, 0, 0, 0 ];
 
+let indexOfDependedBy = -1;
+
 console.log(
     '<p align="center">\n' +
     '  <a href="https://opentemplatehub.com">\n' +
@@ -14,7 +16,7 @@ console.log(
     '\n' +
     '\n' +
     '<h1 align="center">\n' +
-    'Open Template Hub - Animated Code Editor UI Component v4\n' +
+    'Open Template Hub - Animated Code Editor UI Component v5\n' +
     '  <br/>\n' +
     '(outdated packages)\n' +
     '</h1>\n' +
@@ -41,7 +43,17 @@ for ( const line of lines ) {
 
     modifiedLine += '| ';
 
-    for ( let part of stringParts ) {
+    for ( let i = 0; i < stringParts.length; ++i ) {
+      const part = stringParts[ i ];
+
+      if ( lines.indexOf( line ) === 0 && i < stringParts.length - 1 && stringParts[ i + 1 ] === 'Depended' ) {
+        indexOfDependedBy = i;
+      }
+
+      if ( indexOfDependedBy !== -1 && i >= indexOfDependedBy ) {
+        continue;
+      }
+
       if ( part.match( /\s+/ ) ) {
         modifiedLine += ' | ';
       } else {
@@ -63,5 +75,5 @@ for ( const line of lines ) {
 
 console.log(
     '\n' +
-    '<table align="right"><tr><td><a href="https://opentemplatehub.com"><img src="https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/logo/brand-logo.png" width="50px" alt="oth"/></a></td><td><b>Open Template Hub © 2021</b></td></tr></table>\n'
+    '<table align="right"><tr><td><a href="https://opentemplatehub.com"><img src="https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/logo/brand-logo.png" width="50px" alt="oth"/></a></td><td><b>Open Template Hub © 2023</b></td></tr></table>\n'
 );

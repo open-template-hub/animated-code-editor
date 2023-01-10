@@ -1,11 +1,11 @@
 <p align="center">
    <a href="https://opentemplatehub.com">
-    <img src="https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/logo/brand-logo.png" alt="Logo" width=200>
+    <img src="https://raw.githubusercontent.com/open-template-hub/open-template-hub.github.io/master/assets/logo/generator/server-generator-logo.png" alt="Logo" width=200>
   </a>
 </p>
 
 <h1 align="center">
-Open Template Hub - Animated Code Editor UI Component v4
+Open Template Hub - Animated Code Editor UI Component v5
 </h1>
 
 [![Version](https://img.shields.io/npm/v/@open-template-hub/animated-code-editor?color=CB3837&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@open-template-hub/animated-code-editor)
