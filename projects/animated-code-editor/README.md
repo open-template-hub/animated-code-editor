@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-Open Template Hub - Animated Code Editor UI Component v4
+Open Template Hub - Animated Code Editor UI Component v5
 </h1>
 
 [![GitHubRepo](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=for-the-badge&logo=github)](https://github.com/open-template-hub/animated-code-editor)
